@@ -1,0 +1,27 @@
+//header file
+#include<stdio.h>
+/* start
+of main
+function*/
+int main()
+{   
+//local variables
+int n;
+printf("Enter the number n\n");
+scanf("%d",&n);
+printf("The number is %d\n",n);
+for(i=0;i<n;i++)
+{
+for(j=0;j<i;j++)
+{
+printf("Okay\n");
+}
+}
+if(i==n)
+{
+if(j==n)
+{
+printf("Let's Loop!");
+}
+}
+}
